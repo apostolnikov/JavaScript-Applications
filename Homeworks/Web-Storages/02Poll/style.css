@@ -1,0 +1,36 @@
+body {
+	background-color: #246085;
+}
+#wrapper {
+	height: 100%;
+	display: block;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: auto 0;
+	background-color: #8895A5;
+}
+
+#mainSection, h1 {
+	margin-left: 35%;
+}
+
+article.questions {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+
+}
+
+button {
+	width: 100px;
+	margin: 10px;
+	margin-left: 36%;
+	background-color:#7892c2;
+	border-radius: 5px;
+	border: 1px solid #4e6096;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	color: #ffffff;
+	font-family: arial;
+	cursor: pointer;
+
+}

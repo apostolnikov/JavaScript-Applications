@@ -1,0 +1,52 @@
+body {
+    background-color: #224370;
+}
+
+div#background-slideshow{
+    position: relative;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 8%;
+    right: 9%;
+}
+
+#left-button {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 14%;
+    top: 45%;
+    cursor: pointer;
+
+}
+
+#right-button {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 9%;
+    top: 45%;
+    cursor: pointer;
+}
+
+img.slides{
+    border-radius: 5%;
+    position: absolute;
+    width: 900px;
+    top: 8%;
+    right: 9%;
+    height: 550px;
+}
+
+img#dolphins-image{
+    z-index: -666;
+}
+
+img#shark-image{
+    z-index: -777;
+}
+
+img#turtle-image{
+    z-index: -888;
+}
